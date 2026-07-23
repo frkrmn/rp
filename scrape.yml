@@ -1,0 +1,58 @@
+name: Glassnode Realized Price Scraper
+
+on:
+  schedule:
+    - cron: "30 6 * * *" # her gün 06:30 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repoyu checkout et
+        uses: actions/checkout@v4
+
+      - name: Node.js kur
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Bağımlılıkları kur
+        run: npm ci
+
+      - name: Cookie dosyasını secret'tan oluştur
+        env:
+          GLASSNODE_COOKIES_B64: ${{ secrets.GLASSNODE_COOKIES_B64 }}
+        run: |
+          if [ -n "$GLASSNODE_COOKIES_B64" ]; then
+            echo "$GLASSNODE_COOKIES_B64" | base64 -d > glassnode_cookies.json
+          else
+            echo "UYARI: GLASSNODE_COOKIES_B64 secret'ı tanımlı değil, cookie'siz devam edilecek."
+          fi
+
+      - name: Scraper'ı çalıştır
+        run: node scraper.js
+
+      - name: Cookie dosyasını sil (repoya sızmasın)
+        if: always()
+        run: rm -f glassnode_cookies.json
+
+      - name: Değişiklikleri commit + push et
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add realized_price_data.json scraper.log
+          git diff --cached --quiet || git commit -m "chore: update realized price data"
+          git push
+
+      - name: Hata durumunda log ve veri dosyasını artifact olarak yükle
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraper-debug
+          path: |
+            scraper.log
+            realized_price_data.json

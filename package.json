@@ -1,0 +1,14 @@
+{
+  "name": "glassnode-realized-price-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Glassnode Studio realized price (latestValueCard) scraper for BTC/ETH/SOL/XRP",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js",
+    "debug": "SCRAPER_HEADLESS=false node scraper.js"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}
