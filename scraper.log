@@ -26,3 +26,17 @@
 [2026-07-23T10:51:38.511Z] XRP: login duvarı tespit edildi, değer okunamayabilir. Cookie'leri yenilemen gerekebilir.
 [2026-07-23T10:51:38.526Z] XRP: $420690
 [2026-07-23T10:51:38.758Z] Çalıştırma tamamlandı, realized_price_data.json güncellendi.
+[2026-07-24T09:04:41.956Z] Çalıştırma başladı (headless=true)
+[2026-07-24T09:04:42.761Z] UYARI: glassnode_cookies.json bulunamadı. Oturumsuz istek yapılacak, Studio muhtemelen login duvarı gösterecek ve değer okunamayacak.
+[2026-07-24T09:04:48.132Z] BTC: login duvarı tespit edildi, değer okunamayabilir. Cookie'leri yenilemen gerekebilir.
+[2026-07-24T09:04:48.151Z] BTC: $52913.66
+[2026-07-24T09:04:48.225Z] UYARI: glassnode_cookies.json bulunamadı. Oturumsuz istek yapılacak, Studio muhtemelen login duvarı gösterecek ve değer okunamayacak.
+[2026-07-24T09:04:56.146Z] ETH: login duvarı tespit edildi, değer okunamayabilir. Cookie'leri yenilemen gerekebilir.
+[2026-07-24T09:04:56.159Z] ETH: $2238.99
+[2026-07-24T09:04:56.231Z] UYARI: glassnode_cookies.json bulunamadı. Oturumsuz istek yapılacak, Studio muhtemelen login duvarı gösterecek ve değer okunamayacak.
+[2026-07-24T09:05:01.446Z] SOL: login duvarı tespit edildi, değer okunamayabilir. Cookie'leri yenilemen gerekebilir.
+[2026-07-24T09:05:01.459Z] SOL: $116.16
+[2026-07-24T09:05:01.533Z] UYARI: glassnode_cookies.json bulunamadı. Oturumsuz istek yapılacak, Studio muhtemelen login duvarı gösterecek ve değer okunamayacak.
+[2026-07-24T09:05:06.496Z] XRP: login duvarı tespit edildi, değer okunamayabilir. Cookie'leri yenilemen gerekebilir.
+[2026-07-24T09:05:06.509Z] XRP: $1.36
+[2026-07-24T09:05:06.631Z] Çalıştırma tamamlandı, realized_price_data.json güncellendi.
