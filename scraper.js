@@ -155,8 +155,8 @@ function appendResults(runEntry) {
       data = [];
     }
   }
-  data.push(runEntry);
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(data, null, 2));
+  // data.push(runEntry); // sadece bugunun verisi
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify([runEntry], null, 2));
 }
 
 async function run() {
