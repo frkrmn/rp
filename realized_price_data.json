@@ -1,32 +1,32 @@
 [
   {
-    "run_timestamp_utc": "2026-08-12T06:05:41.719Z",
+    "run_timestamp_utc": "2026-08-13T05:34:43.733Z",
     "results": [
       {
         "symbol": "BTC",
         "url": "https://studio.glassnode.com/charts/market.PriceRealizedUsd?a=BTC",
-        "date": "2026-08-12",
-        "scraped_at_utc": "2026-08-12T06:05:13.151Z",
-        "latest_value_raw_text": "LATEST VALUES\n$52,748.45\n24 hours ago\n$420,690\n10 minutes ago",
-        "realized_price_usd": 52748.45,
+        "date": "2026-08-13",
+        "scraped_at_utc": "2026-08-13T05:34:17.098Z",
+        "latest_value_raw_text": "LATEST VALUES\n$52,728.51\n24 hours ago\n$420,690\n10 minutes ago",
+        "realized_price_usd": 52728.51,
         "login_wall_detected": true,
         "error": null
       },
       {
         "symbol": "ETH",
         "url": "https://studio.glassnode.com/charts/market.PriceRealizedUsd?a=ETH",
-        "date": "2026-08-12",
-        "scraped_at_utc": "2026-08-12T06:05:22.436Z",
-        "latest_value_raw_text": "LATEST VALUES\n$420,690\n10 minutes ago",
-        "realized_price_usd": 420690,
+        "date": "2026-08-13",
+        "scraped_at_utc": "2026-08-13T05:34:27.097Z",
+        "latest_value_raw_text": "LATEST VALUES\n$2,228.57\n24 hours ago\n$420,690\n10 minutes ago",
+        "realized_price_usd": 2228.57,
         "login_wall_detected": true,
         "error": null
       },
       {
         "symbol": "SOL",
         "url": "https://studio.glassnode.com/charts/market.PriceRealizedUsd?a=SOL",
-        "date": "2026-08-12",
-        "scraped_at_utc": "2026-08-12T06:05:31.497Z",
+        "date": "2026-08-13",
+        "scraped_at_utc": "2026-08-13T05:34:35.187Z",
         "latest_value_raw_text": "LATEST VALUES\n$420,690\n10 minutes ago",
         "realized_price_usd": 420690,
         "login_wall_detected": true,
@@ -35,8 +35,8 @@
       {
         "symbol": "XRP",
         "url": "https://studio.glassnode.com/charts/market.PriceRealizedUsd?a=XRP",
-        "date": "2026-08-12",
-        "scraped_at_utc": "2026-08-12T06:05:41.123Z",
+        "date": "2026-08-13",
+        "scraped_at_utc": "2026-08-13T05:34:43.126Z",
         "latest_value_raw_text": "LATEST VALUES\n$420,690\n10 minutes ago",
         "realized_price_usd": 420690,
         "login_wall_detected": true,
