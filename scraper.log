@@ -418,3 +418,31 @@
 [2026-08-13T06:05:38.486Z] XRP: login duvarı tespit edildi, değer okunamayabilir. Cookie'leri yenilemen gerekebilir.
 [2026-08-13T06:05:38.553Z] XRP: $420690
 [2026-08-13T06:05:39.065Z] Çalıştırma tamamlandı, realized_price_data.json güncellendi.
+[2026-08-13T10:38:31.238Z] Çalıştırma başladı (headless=true)
+[2026-08-13T10:38:33.204Z] UYARI: glassnode_cookies.json bulunamadı. Oturumsuz istek yapılacak, Studio muhtemelen login duvarı gösterecek ve değer okunamayacak.
+[2026-08-13T10:38:41.817Z] BTC: login duvarı tespit edildi, değer okunamayabilir. Cookie'leri yenilemen gerekebilir.
+[2026-08-13T10:38:41.888Z] BTC: $420690
+[2026-08-13T10:38:42.134Z] UYARI: glassnode_cookies.json bulunamadı. Oturumsuz istek yapılacak, Studio muhtemelen login duvarı gösterecek ve değer okunamayacak.
+[2026-08-13T10:38:50.175Z] ETH: login duvarı tespit edildi, değer okunamayabilir. Cookie'leri yenilemen gerekebilir.
+[2026-08-13T10:38:50.245Z] ETH: $420690
+[2026-08-13T10:38:50.491Z] UYARI: glassnode_cookies.json bulunamadı. Oturumsuz istek yapılacak, Studio muhtemelen login duvarı gösterecek ve değer okunamayacak.
+[2026-08-13T10:38:59.072Z] SOL: değer okunamadı - SELECTORS.latestValueCard'ı kalibre et (npm run debug).
+[2026-08-13T10:38:59.077Z] Beklenmeyen hata: Error: Protocol error: Connection closed. Most likely the page has been closed.
+    at assert (/home/scraper/rp/node_modules/puppeteer-core/lib/cjs/puppeteer/util/assert.js:18:15)
+    at CdpPage.close (/home/scraper/rp/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Page.js:839:36)
+    at async scrapeOne (/home/scraper/rp/scraper.js:142:5)
+    at async run (/home/scraper/rp/scraper.js:171:15)
+[2026-08-14T06:05:02.463Z] Çalıştırma başladı (headless=true)
+[2026-08-14T06:05:03.508Z] UYARI: glassnode_cookies.json bulunamadı. Oturumsuz istek yapılacak, Studio muhtemelen login duvarı gösterecek ve değer okunamayacak.
+[2026-08-14T06:05:12.910Z] BTC: login duvarı tespit edildi, değer okunamayabilir. Cookie'leri yenilemen gerekebilir.
+[2026-08-14T06:05:13.029Z] BTC: $52724.18
+[2026-08-14T06:05:13.264Z] UYARI: glassnode_cookies.json bulunamadı. Oturumsuz istek yapılacak, Studio muhtemelen login duvarı gösterecek ve değer okunamayacak.
+[2026-08-14T06:05:22.840Z] ETH: login duvarı tespit edildi, değer okunamayabilir. Cookie'leri yenilemen gerekebilir.
+[2026-08-14T06:05:22.899Z] ETH: $2227.88
+[2026-08-14T06:05:23.110Z] UYARI: glassnode_cookies.json bulunamadı. Oturumsuz istek yapılacak, Studio muhtemelen login duvarı gösterecek ve değer okunamayacak.
+[2026-08-14T06:05:30.727Z] SOL: login duvarı tespit edildi, değer okunamayabilir. Cookie'leri yenilemen gerekebilir.
+[2026-08-14T06:05:30.818Z] SOL: $114.64
+[2026-08-14T06:05:31.003Z] UYARI: glassnode_cookies.json bulunamadı. Oturumsuz istek yapılacak, Studio muhtemelen login duvarı gösterecek ve değer okunamayacak.
+[2026-08-14T06:05:38.422Z] XRP: login duvarı tespit edildi, değer okunamayabilir. Cookie'leri yenilemen gerekebilir.
+[2026-08-14T06:05:38.474Z] XRP: $1.35
+[2026-08-14T06:05:38.913Z] Çalıştırma tamamlandı, realized_price_data.json güncellendi.
