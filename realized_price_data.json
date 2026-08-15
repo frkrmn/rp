@@ -1,32 +1,32 @@
 [
   {
-    "run_timestamp_utc": "2026-08-14T06:05:38.912Z",
+    "run_timestamp_utc": "2026-08-15T06:05:40.288Z",
     "results": [
       {
         "symbol": "BTC",
         "url": "https://studio.glassnode.com/charts/market.PriceRealizedUsd?a=BTC",
-        "date": "2026-08-14",
-        "scraped_at_utc": "2026-08-14T06:05:13.029Z",
-        "latest_value_raw_text": "LATEST VALUES\n$52,724.18\n24 hours ago\n$420,690\n10 minutes ago",
-        "realized_price_usd": 52724.18,
+        "date": "2026-08-15",
+        "scraped_at_utc": "2026-08-15T06:05:12.440Z",
+        "latest_value_raw_text": "LATEST VALUES\n$52,711.08\n24 hours ago\n$420,690\n10 minutes ago",
+        "realized_price_usd": 52711.08,
         "login_wall_detected": true,
         "error": null
       },
       {
         "symbol": "ETH",
         "url": "https://studio.glassnode.com/charts/market.PriceRealizedUsd?a=ETH",
-        "date": "2026-08-14",
-        "scraped_at_utc": "2026-08-14T06:05:22.899Z",
-        "latest_value_raw_text": "LATEST VALUES\n$2,227.88\n24 hours ago\n$420,690\n10 minutes ago",
-        "realized_price_usd": 2227.88,
+        "date": "2026-08-15",
+        "scraped_at_utc": "2026-08-15T06:05:21.964Z",
+        "latest_value_raw_text": "LATEST VALUES\n$2,227.66\n24 hours ago\n$420,690\n10 minutes ago",
+        "realized_price_usd": 2227.66,
         "login_wall_detected": true,
         "error": null
       },
       {
         "symbol": "SOL",
         "url": "https://studio.glassnode.com/charts/market.PriceRealizedUsd?a=SOL",
-        "date": "2026-08-14",
-        "scraped_at_utc": "2026-08-14T06:05:30.818Z",
+        "date": "2026-08-15",
+        "scraped_at_utc": "2026-08-15T06:05:30.240Z",
         "latest_value_raw_text": "LATEST VALUES\n$114.64\n24 hours ago\n$420,690\n10 minutes ago",
         "realized_price_usd": 114.64,
         "login_wall_detected": true,
@@ -35,8 +35,8 @@
       {
         "symbol": "XRP",
         "url": "https://studio.glassnode.com/charts/market.PriceRealizedUsd?a=XRP",
-        "date": "2026-08-14",
-        "scraped_at_utc": "2026-08-14T06:05:38.474Z",
+        "date": "2026-08-15",
+        "scraped_at_utc": "2026-08-15T06:05:39.682Z",
         "latest_value_raw_text": "LATEST VALUES\n$1.35\n24 hours ago\n$420,690\n10 minutes ago",
         "realized_price_usd": 1.35,
         "login_wall_detected": true,
