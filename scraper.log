@@ -1492,3 +1492,13 @@
 [2026-10-28T06:06:51.748Z] XRP: login duvarı tespit edildi, değer okunamayabilir. Cookie'leri yenilemen gerekebilir.
 [2026-10-28T06:06:51.849Z] XRP: $1.32
 [2026-10-28T06:06:52.408Z] Çalıştırma tamamlandı, realized_price_data.json güncellendi.
+[2026-10-29T06:05:02.774Z] Çalıştırma başladı (headless=true)
+[2026-10-29T06:05:04.318Z] UYARI: glassnode_cookies.json bulunamadı. Oturumsuz istek yapılacak, Studio muhtemelen login duvarı gösterecek ve değer okunamayacak.
+[2026-10-29T06:05:37.358Z] BTC: HATA - net::ERR_NAME_NOT_RESOLVED at https://studio.glassnode.com/charts/market.PriceRealizedUsd?a=BTC
+[2026-10-29T06:05:37.523Z] UYARI: glassnode_cookies.json bulunamadı. Oturumsuz istek yapılacak, Studio muhtemelen login duvarı gösterecek ve değer okunamayacak.
+[2026-10-29T06:06:14.212Z] ETH: HATA - net::ERR_NAME_NOT_RESOLVED at https://studio.glassnode.com/charts/market.PriceRealizedUsd?a=ETH
+[2026-10-29T06:06:14.367Z] UYARI: glassnode_cookies.json bulunamadı. Oturumsuz istek yapılacak, Studio muhtemelen login duvarı gösterecek ve değer okunamayacak.
+[2026-10-29T06:06:51.084Z] SOL: HATA - net::ERR_NAME_NOT_RESOLVED at https://studio.glassnode.com/charts/market.PriceRealizedUsd?a=SOL
+[2026-10-29T06:06:51.253Z] UYARI: glassnode_cookies.json bulunamadı. Oturumsuz istek yapılacak, Studio muhtemelen login duvarı gösterecek ve değer okunamayacak.
+[2026-10-29T06:07:27.942Z] XRP: HATA - net::ERR_NAME_NOT_RESOLVED at https://studio.glassnode.com/charts/market.PriceRealizedUsd?a=XRP
+[2026-10-29T06:07:28.217Z] Çalıştırma tamamlandı, realized_price_data.json güncellendi.
