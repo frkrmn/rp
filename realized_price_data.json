@@ -1,42 +1,42 @@
 [
   {
-    "run_timestamp_utc": "2026-11-26T06:06:00.539Z",
+    "run_timestamp_utc": "2026-11-27T06:05:59.452Z",
     "results": [
       {
         "symbol": "BTC",
         "url": "https://studio.glassnode.com/charts/market.PriceRealizedUsd?a=BTC",
-        "date": "2026-11-26",
-        "scraped_at_utc": "2026-11-26T06:05:19.409Z",
-        "latest_value_raw_text": "LATEST VALUES\n$53,082.24\n24 hours ago\n$420,690\n10 minutes ago",
-        "realized_price_usd": 53082.24,
+        "date": "2026-11-27",
+        "scraped_at_utc": "2026-11-27T06:05:19.592Z",
+        "latest_value_raw_text": "LATEST VALUES\n$53,077.92\n24 hours ago\n$420,690\n10 minutes ago",
+        "realized_price_usd": 53077.92,
         "login_wall_detected": true,
         "error": null
       },
       {
         "symbol": "ETH",
         "url": "https://studio.glassnode.com/charts/market.PriceRealizedUsd?a=ETH",
-        "date": "2026-11-26",
-        "scraped_at_utc": "2026-11-26T06:05:34.966Z",
-        "latest_value_raw_text": "LATEST VALUES\n$2,218.88\n24 hours ago\n$420,690\n10 minutes ago",
-        "realized_price_usd": 2218.88,
+        "date": "2026-11-27",
+        "scraped_at_utc": "2026-11-27T06:05:33.928Z",
+        "latest_value_raw_text": "LATEST VALUES\n$2,216.79\n24 hours ago\n$420,690\n10 minutes ago",
+        "realized_price_usd": 2216.79,
         "login_wall_detected": true,
         "error": null
       },
       {
         "symbol": "SOL",
         "url": "https://studio.glassnode.com/charts/market.PriceRealizedUsd?a=SOL",
-        "date": "2026-11-26",
-        "scraped_at_utc": "2026-11-26T06:05:47.679Z",
-        "latest_value_raw_text": "LATEST VALUES\n$110.67\n24 hours ago\n$420,690\n10 minutes ago",
-        "realized_price_usd": 110.67,
+        "date": "2026-11-27",
+        "scraped_at_utc": "2026-11-27T06:05:46.158Z",
+        "latest_value_raw_text": "LATEST VALUES\n$110.63\n24 hours ago\n$420,690\n10 minutes ago",
+        "realized_price_usd": 110.63,
         "login_wall_detected": true,
         "error": null
       },
       {
         "symbol": "XRP",
         "url": "https://studio.glassnode.com/charts/market.PriceRealizedUsd?a=XRP",
-        "date": "2026-11-26",
-        "scraped_at_utc": "2026-11-26T06:05:59.406Z",
+        "date": "2026-11-27",
+        "scraped_at_utc": "2026-11-27T06:05:58.768Z",
         "latest_value_raw_text": "LATEST VALUES\n$1.28\n24 hours ago\n$420,690\n10 minutes ago",
         "realized_price_usd": 1.28,
         "login_wall_detected": true,
